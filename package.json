@@ -1,15 +1,26 @@
 {
   "name": "learn2",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "working",
+  "main": "main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+    "start": "electron ."
+},
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "nightmare": "^3.0.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vogunko/NodeJS_Parcer.git"
+  },
+  "bugs": {
+    "url": "https://github.com/vogunko/NodeJS_Parcer/issues"
+  },
+  "homepage": "https://github.com/vogunko/NodeJS_Parcer#readme",
+  "devDependencies": {
+    "electron": "^11.2.3"
   }
 }
